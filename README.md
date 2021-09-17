@@ -6,11 +6,6 @@ OSINT support tool for malware analysts.
 
 ## Release Note
 
-* V 1.2:
-  * Changed the result page design with CSS files.
-  * Localized messages.
-* V 1.1:
-  * Added a search from popup menus function.
 * V 1.0:
   * Initial release.
 
