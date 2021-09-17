@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Omoikane</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    body {
+      width: 400px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="omoikane"><ruby>思兼神<rt>omoikane</rt></ruby></div>
+  <div class="main_area">
+    <h3 id="str_title">Strings Search</h3>
+
+    <!-- Input box -->
+    <button class="btn_keep_str" id="btn_keep_str">Keep strings: OFF</button>
+    <input type="text" id="input_box" name="input_box" value="" style="width: 370px;" placeholder="Search Strrings"><br>
+
+    <!-- Strings search -->
+
+    <button class="btn_search_str" id="btn_str_virustotal">Strings search (VirusTotal)</button><br>
+    <button class="btn_search_str" id="btn_str_hybridanalysis">Strings search (Hybrid Analysis)</button><br>
+    <button class="btn_search_str" id="btn_str_joesandbox">Strings search (Joe Sandbox)</button><br>
+
+    <!-- Actor search -->
+
+    <div id="actor_search">
+      <button class="btn_search_str" id="btn_actor">Actor name search</button><br>
+    </div>
+
+    <!-- Malware search -->
+
+    <div id="malware_search">
+      <button class="btn_search_str" id="btn_malware">Malware family search</button><br>
+    </div>
+
+    <!-- IP address search -->
+
+    <div id="ip_search">
+      <button class="btn_search_str" id="btn_ip_report">IP address investigation report creation</button><br>
+      <button class="btn_search_str" id="btn_ip_domaintools">IP address search (DomainTools)</button><br>
+      <button class="btn_search_str" id="btn_ip_urlscan">IP address search (urlscan.io)</button><br>
+      <button class="btn_search_str" id="btn_ip_urlhaus">IP address search (URLhaus)</button><br>
+      <button class="btn_search_str" id="btn_ip_abuse">IP address search (AbuseIPDB)</button><br>
+      <button class="btn_search_str" id="btn_ip_shodan">IP address search (Shodan)</button><br>
+      <button class="btn_search_str" id="btn_ip_threatcrowd">IP address search (Threat Crowd)</button><br>
+      <button class="btn_search_str" id="btn_ip_virustotal">IP address search (VirusTotal)</button><br>
+    </div>
+
+    <!-- Domain name search -->
+
+    <div id="domain_search">
+      <button class="btn_search_str" id="btn_domain_report">Domain name investigation report creation</button><br>
+      <button class="btn_search_str" id="btn_domain_domaintools">Domain name search (DomainTools)</button><br>
+      <button class="btn_search_str" id="btn_domain_urlscan">Domain name search (urlscan.io)</button><br>
+      <button class="btn_search_str" id="btn_domain_urlhaus">Domain name search (URLhaus)</button><br>
+      <button class="btn_search_str" id="btn_domain_shodan">Domain name search (Shodan)</button><br>
+      <button class="btn_search_str" id="btn_domain_threatcrowd">Domain name search (Threat Crowd)</button><br>
+      <button class="btn_search_str" id="btn_domain_virustotal">Domain name search (VirusTotal)</button><br>
+    </div>
+
+    <!-- Hash value search -->
+
+    <div id="hash_search">
+      <button class="btn_search_str" id="btn_hash_virustotal">Hash search (VirusTotal)</button><br>
+      <button class="btn_search_str" id="btn_hash_hybridanalysis">Hash search (Hybrid Analysis)</button><br>
+      <button class="btn_search_str" id="btn_hash_anyrun">Hash search (ANY.RUN)</button><br>
+      <button class="btn_search_str" id="btn_hash_joesandbox">Hash search (Joe Sandbox)</button><br>
+    </div>
+
+    <!-- Fingerprint search -->
+
+    <div id="fingerprint_search">
+      <button class="btn_search_str" id="btn_ssh_shodan">Fingerprint search (Shodan)</button><br>
+    </div>
+
+  </div> <br>
+  <p><a href="../options.html" target="_blank" id="href_option">Open Options page.</a>
+    /
+    <a href="../README.html" target="_blank" id="href_readme">Open README.</a>
+  </p>
+  <div class="bottom">
+    <script src="./popup_lang.js"></script>
+    <script src="./popup.js"></script>
+  </div>
+</body>
+
+</html>

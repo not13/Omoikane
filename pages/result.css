@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'mouhitu';
+    src: url('../font/mouhitsu.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'soukou';
+    src: url('../font/SoukouMincho.ttf') format('truetype');
+}
+
+code {
+    font-family: 'soukou';
+    display: inline-block;
+    padding: 20px 20px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: solid 1px #000000;
+    line-height: 20px
+}
+
+body {
+    font-family: 'soukou';
+    line-height: 30px;
+}
+
+div.omoikane {
+    font-family: 'mouhitu';
+    font-size: 50px;
+    color: #dbdbdb;
+    background-color: #585858;
+    padding-bottom: 17px;
+}
+
+rt {
+    font-size: 15px;
+    letter-spacing: 8px;
+}
+
+h1 {
+    font-family: 'soukou';
+    letter-spacing: 2px;
+}
+
+h1:first-letter {
+    font-size: 150%;
+    color: #ff3a3a;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(to right, #222222, transparent);
+}
+
+h2 {
+    font-family: 'soukou';
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+h2:first-letter {
+    font-size: 150%;
+    color: #ff3a3a;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(to right, #222222, transparent);
+}
+
+h3 {
+    font-family: 'soukou';
+    letter-spacing: 2px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+h3:first-letter {
+    font-size: 150%;
+    color: #ff3a3a;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(to right, #222222, transparent);
+}
+
+h4 {
+    font-family: 'soukou';
+    letter-spacing: 2px;
+}
+
+h4:first-letter {
+    font-size: 120%;
+    color: #ff3a3a;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    background: linear-gradient(to right, #ff8080 0%, transparent 100%);
+}
+
+a:visited {
+    color: #747474;
+}
+
+div.bottom {
+    text-align: right;
+}

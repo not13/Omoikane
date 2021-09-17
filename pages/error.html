@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result.css">
+    <!-- <style>
+        body {
+            font-size: 15px;
+        }
+    </style> -->
+    <title>ERROR!!</title>
+</head>
+
+<body>
+    <div class="omoikane"><ruby>思兼神<rt>omoikane</rt></ruby></div>
+    <h1 id="str_title">You have caught ERROR!</h1>
+    <div id="str_reason">
+        Sorry, it seems that something error has occurred.
+        Please refer to the error message on the popup alert and the descriptions below.
+    </div>
+    <h2 id="str_error_messages">Error messages</h2>
+    <h3 id="str_toofast_title">Error message: "tooFast"</h3>
+    <div id="str_toofast_body" style="margin-left: 20px;">
+        You reached a time limitation due to API restriction.
+        This extension use external APIs.
+        That APIs has some restrictions,
+        especially the interval between the last API call time and the current API call time.
+        Please wait around 10 seconds and run again.
+    </div>
+    <h3 id="str_limitationreached_title">Error message: "limitationReached"</h3>
+    <div id="str_limitationreached_body" style="margin-left: 20px;">
+        You may have been reached a limitation of API use count can be used.
+    </div>
+    <h3 id="str_noapikey_title">Error message: "noApiKey: {site name}"</h3>
+    <div id="str_noapikey_body" style="margin-left: 20px;">
+        API keys didn't offer.
+        Please input it from the options page.
+        If you didn't register an account on the sites (Shodan, proxycheck.io, AbuseIPDB) yet,
+        you must register and get API keys.
+    </div>
+    <br>
+    <br>
+    <br>
+    <script src="./error.js"></script>
+</body>
+
+</html>

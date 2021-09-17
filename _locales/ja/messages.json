@@ -1,0 +1,362 @@
+{
+    "manifest_description": {
+        "message": "マルウェア・アナリスト向けの OSINT サポートツール。"
+    },
+    "global_timeout": {
+        "message": "セッションがタイムアウトしました。もう一度実行してください。"
+    },
+    "actor_search_str_title": {
+        "message": "アクター名検索結果"
+    },
+    "actor_search_str_input": {
+        "message": "検索文字列："
+    },
+    "actor_search_str_alert": {
+        "message": "検索文字列に近しいアクター名は見つかりませんでした："
+    },
+    "actor_search_str_create_report": {
+        "message": "レポートを作成"
+    },
+    "actor_search_str_open_malpedia": {
+        "message": "アクターの Malpedia ページを閲覧"
+    },
+    "actor_search_str_synonyms": {
+        "message": "別名"
+    },
+    "actor_search_str_none": {
+        "message": "無し"
+    },
+    "actor_report_str_title": {
+        "message": "アクター詳細レポート"
+    },
+    "actor_report_str_open_malpedia": {
+        "message": "アクターの Malpedia ページを閲覧"
+    },
+    "actor_report_str_synonyms": {
+        "message": "別名"
+    },
+    "actor_report_str_country": {
+        "message": "活動拠点"
+    },
+    "actor_report_str_suspected_sponsor": {
+        "message": "支援を疑われる国家"
+    },
+    "actor_report_str_suspected_victims": {
+        "message": "被害を疑われる国家"
+    },
+    "actor_report_str_target_category": {
+        "message": "攻撃目標"
+    },
+    "actor_report_str_incident_type": {
+        "message": "インシデントタイプ"
+    },
+    "actor_report_str_description": {
+        "message": "説明"
+    },
+    "actor_report_str_malware": {
+        "message": "使用するマルウェアファミリー"
+    },
+    "actor_report_str_malpedia_link": {
+        "message": "Malpedia ページへリンク"
+    },
+    "actor_report_str_references": {
+        "message": "参考資料"
+    },
+    "actor_report_str_external_link": {
+        "message": "外部ページへリンク"
+    },
+    "malware_search_str_title": {
+        "message": "マルウェアファミリー検索結果"
+    },
+    "malware_search_str_input": {
+        "message": "入力文字列: "
+    },
+    "malware_search_str_alert": {
+        "message": "検索文字列に近しいアクター名は見つかりませんでした："
+    },
+    "malware_search_str_create_report": {
+        "message": "レポートを作成"
+    },
+    "malware_search_str_open_malpedia": {
+        "message": "マルウェアの Malpedia ページを閲覧"
+    },
+    "malware_search_str_alt_names": {
+        "message": "別名"
+    },
+    "malware_search_str_none": {
+        "message": "無し"
+    },
+    "malware_report_str_title": {
+        "message": "マルウェア詳細レポート"
+    },
+    "malware_report_str_open_malpedia": {
+        "message": "マルウェアの Malpedia ページを閲覧"
+    },
+    "malware_report_str_alt_names": {
+        "message": "別名"
+    },
+    "malware_report_str_actors": {
+        "message": "マルウェアを使用するアクター"
+    },
+    "malware_report_str_external_link": {
+        "message": "外部ページへリンク"
+    },
+    "malware_report_str_description": {
+        "message": "説明"
+    },
+    "malware_report_str_notes": {
+        "message": "ノート"
+    },
+    "malware_report_str_references": {
+        "message": "参考資料"
+    },
+    "ip_report_str_title": {
+        "message": "IP アドレス調査レポート"
+    },
+    "ip_report_str_target_ip": {
+        "message": "対象 IP アドレス"
+    },
+    "ip_report_str_server_info": {
+        "message": "サーバー情報"
+    },
+    "ip_report_str_data_fetch_failed": {
+        "message": "データ取得失敗"
+    },
+    "ip_report_str_hostname": {
+        "message": "ホスト名"
+    },
+    "ip_report_str_geolocation_map": {
+        "message": "ジオロケーションマップ"
+    },
+    "ip_report_str_open_ports": {
+        "message": "オープンポート"
+    },
+    "ip_report_str_no_open_ports": {
+        "message": "オープンポート無し。"
+    },
+    "ip_report_str_reference_from_shodan": {
+        "message": "Shodan よりデータを参照"
+    },
+    "ip_report_str_proxy_check": {
+        "message": "プロキシー使用チェック"
+    },
+    "ip_report_str_proxy": {
+        "message": "プロキシー使用"
+    },
+    "ip_report_str_str_type": {
+        "message": "プロキシータイプ"
+    },
+    "ip_report_str_abuse_report": {
+        "message": "悪用の報告"
+    },
+    "ip_report_str_reference_from_abuse": {
+        "message": "AbuseIPDB よりデータを参照"
+    },
+    "ip_report_str_abuse_reports": {
+        "message": "悪用の報告"
+    },
+    "ip_report_str_usage_type": {
+        "message": "サーバー用途"
+    },
+    "ip_report_str_no_abuse_reports": {
+        "message": "悪用の報告無し。"
+    },
+    "ip_report_str_reverse_dns": {
+        "message": "リバース DNS"
+    },
+    "ip_report_str_last_resolved": {
+        "message": "最終解決日"
+    },
+    "ip_report_str_recommendations": {
+        "message": "確認を推奨するサイト"
+    },
+    "ip_report_str_ip_used_history": {
+        "message": "過去の IP アドレスの使用履歴"
+    },
+    "ip_report_str_ip_address_search_with": {
+        "message": "外部サービスで IP アドレスを検索"
+    },
+    "domain_report_str_title": {
+        "message": "ドメイン名調査レポート"
+    },
+    "domain_report_str_target_domain": {
+        "message": "対象ドメイン名"
+    },
+    "domain_report_str_server_info": {
+        "message": "Whois 情報"
+    },
+    "domain_report_str_data_fetch_failed": {
+        "message": "データ取得失敗"
+    },
+    "domain_report_str_date": {
+        "message": "日付情報"
+    },
+    "domain_report_str_registrant": {
+        "message": "登録者情報"
+    },
+    "domain_report_str_admin": {
+        "message": "管理者情報"
+    },
+    "domain_report_str_name_servers": {
+        "message": "ネームサーバー情報"
+    },
+    "domain_report_str_subdomains": {
+        "message": "サブドメイン"
+    },
+    "domain_report_str_resolutions": {
+        "message": "名前解決情報"
+    },
+    "domain_report_str_none": {
+        "message": "無し"
+    },
+    "domain_report_str_resolution_histories": {
+        "message": "名前解決履歴"
+    },
+    "domain_report_str_last_resolved": {
+        "message": "最終解決日"
+    },
+    "domain_report_str_recommendations": {
+        "message": "確認を推奨するサイト"
+    },
+    "domain_report_str_manual_search": {
+        "message": "手動検索"
+    },
+    "domain_report_str_hosting_history": {
+        "message": "ホスティング履歴"
+    },
+    "domain_report_str_whois_history": {
+        "message": "Whois 情報履歴"
+    },
+    "domain_report_str_domain_info_history": {
+        "message": "ドメイン登録情報履歴"
+    },
+    "domain_report_str_files_referring": {
+        "message": "ドメインを使用している関係ファイル"
+    },
+    "domain_report_str_domain_search_with": {
+        "message": "外部サービスでドメイン名を検索"
+    },
+    "popup_title": {
+        "message": "文字列検索"
+    },
+    "popup_btn_keep_str_on": {
+        "message": "入力文字保存：有効"
+    },
+    "popup_btn_keep_str_off": {
+        "message": "入力文字保存：無効"
+    },
+    "popup_input_box": {
+        "message": "検索文字列"
+    },
+    "popup_btn_str_virustotal": {
+        "message": "文字列検索 (VirusTotal)"
+    },
+    "popup_btn_str_hybridanalysis": {
+        "message": "文字列検索 (Hybrid Analysis)"
+    },
+    "popup_btn_str_joesandbox": {
+        "message": "文字列検索 (Joe Sandbox)"
+    },
+    "popup_btn_actor": {
+        "message": "アクター名検索"
+    },
+    "popup_btn_malware": {
+        "message": "マルウェアファミリー名検索"
+    },
+    "popup_btn_ip_report": {
+        "message": "IP アドレス調査レポート作成"
+    },
+    "popup_btn_ip_domaintools": {
+        "message": "IP アドレス検索 (DomainTools)"
+    },
+    "popup_btn_ip_urlscan": {
+        "message": "IP アドレス検索 (urlscan.io)"
+    },
+    "popup_btn_ip_urlhaus": {
+        "message": "IP アドレス検索 (URLhaus)"
+    },
+    "popup_btn_ip_abuse": {
+        "message": "IP アドレス検索 (AbuseIPDB)"
+    },
+    "popup_btn_ip_shodan": {
+        "message": "IP アドレス検索 (Shodan)"
+    },
+    "popup_btn_ip_threatcrowd": {
+        "message": "IP アドレス検索 (Threat Crowd)"
+    },
+    "popup_btn_ip_virustotal": {
+        "message": "IP アドレス検索 (VirusTotal)"
+    },
+    "popup_btn_domain_report": {
+        "message": "ドメイン名調査レポート作成"
+    },
+    "popup_btn_domain_domaintools": {
+        "message": "ドメイン名検索 (DomainTools)"
+    },
+    "popup_btn_domain_urlscan": {
+        "message": "ドメイン名検索 (urlscan.io)"
+    },
+    "popup_btn_domain_urlhaus": {
+        "message": "ドメイン名検索 (URLhaus)"
+    },
+    "popup_btn_domain_shodan": {
+        "message": "ドメイン名検索 (Shodan)"
+    },
+    "popup_btn_domain_threatcrowd": {
+        "message": "ドメイン名検索 (Threat Crowd)"
+    },
+    "popup_btn_domain_virustotal": {
+        "message": "ドメイン名検索 (VirusTotal)"
+    },
+    "popup_btn_hash_virustotal": {
+        "message": "ハッシュ値検索 (Virustotal)"
+    },
+    "popup_btn_hash_hybridanalysis": {
+        "message": "ハッシュ値検索 (Hybridanalysis)"
+    },
+    "popup_btn_hash_anyrun": {
+        "message": "ハッシュ値検索 (ANY.RUN)"
+    },
+    "popup_btn_hash_joesandbox": {
+        "message": "ハッシュ値検索 (Joe Sandbox)"
+    },
+    "popup_btn_ssh_shodan": {
+        "message": "SSH フィンガープリント検索 (Shodan)"
+    },
+    "popup_href_option": {
+        "message": "オプションページ"
+    },
+    "popup_href_readme": {
+        "message": "ヘルプ (README)"
+    },
+    "error_str_title": {
+        "message": "エラーが発生しました！"
+    },
+    "error_str_reason": {
+        "message": "申し訳ありません。何らかのエラーが発生したようです。アラートメッセージ及び以下のエラーメッセージを参照して下さい。"
+    },
+    "error_str_error_messages": {
+        "message": "エラー種別"
+    },
+    "error_str_toofast_title": {
+        "message": "'tooFast'"
+    },
+    "error_str_toofast_body": {
+        "message": "API 制限による時間規制に達しました。この拡張機能は外部の API を使用しています。これらの API は使用にあたり、API コールの間隔に制限を設けています。１０秒ほど待ってから再度実行して下さい。"
+    },
+    "error_str_limitationreached_title": {
+        "message": "'limitationReached'"
+    },
+    "error_str_limitationreached_body": {
+        "message": "本日分の API の使用回数制限に達しました。"
+    },
+    "error_str_noapikey_title": {
+        "message": "'noApiKey: {サイト名}'"
+    },
+    "error_str_noapikey_body": {
+        "message": "API キーが提供されませんでした。オプションページから API キーを入力して下さい。もしサイト (Shodan, proxycheck.io, AbuseIPDB) でまだアカウントを登録していない場合は、最初に登録して API キーを入手する必要があります。"
+    },
+    "end": {
+        "message": "end"
+    }
+}

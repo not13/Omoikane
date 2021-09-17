@@ -1,0 +1,362 @@
+{
+    "manifest_description": {
+        "message": "OSINT support tool for malware analysts."
+    },
+    "global_timeout": {
+        "message": "Session Timeout. Prease Retry."
+    },
+    "actor_search_str_title": {
+        "message": "Actor's A.K.A. Search Results"
+    },
+    "actor_search_str_input": {
+        "message": "Input Text: "
+    },
+    "actor_search_str_alert": {
+        "message": "Actor name close to input text was not found: "
+    },
+    "actor_search_str_create_report": {
+        "message": "Create a Report"
+    },
+    "actor_search_str_open_malpedia": {
+        "message": "Open the Malpedia Page"
+    },
+    "actor_search_str_synonyms": {
+        "message": "Synonyms"
+    },
+    "actor_search_str_none": {
+        "message": "None"
+    },
+    "actor_report_str_title": {
+        "message": "Actor's Details Report"
+    },
+    "actor_report_str_open_malpedia": {
+        "message": "Open the Malpedia Page"
+    },
+    "actor_report_str_synonyms": {
+        "message": "Synonyms"
+    },
+    "actor_report_str_country": {
+        "message": "Country"
+    },
+    "actor_report_str_suspected_sponsor": {
+        "message": "Suspected State Sponsor"
+    },
+    "actor_report_str_suspected_victims": {
+        "message": "Suspected Victims"
+    },
+    "actor_report_str_target_category": {
+        "message": "Target Category"
+    },
+    "actor_report_str_incident_type": {
+        "message": "Type of Incident"
+    },
+    "actor_report_str_description": {
+        "message": "Description"
+    },
+    "actor_report_str_malware": {
+        "message": "Malware Families to Use"
+    },
+    "actor_report_str_malpedia_link": {
+        "message": "Link to Malpedia Page"
+    },
+    "actor_report_str_references": {
+        "message": "References"
+    },
+    "actor_report_str_external_link": {
+        "message": "Link to External Page"
+    },
+    "malware_search_str_title": {
+        "message": "Malware Families Search Results"
+    },
+    "malware_search_str_input": {
+        "message": "Input text: "
+    },
+    "malware_search_str_alert": {
+        "message": "Actor name close to input text was not Found: "
+    },
+    "malware_search_str_create_report": {
+        "message": "Create a Report"
+    },
+    "malware_search_str_open_malpedia": {
+        "message": "Open the Malpedia Page"
+    },
+    "malware_search_str_alt_names": {
+        "message": "Alt Names"
+    },
+    "malware_search_str_none": {
+        "message": "None"
+    },
+    "malware_report_str_title": {
+        "message": "Malware Details Report"
+    },
+    "malware_report_str_open_malpedia": {
+        "message": "Open the Malpedia Page"
+    },
+    "malware_report_str_alt_names": {
+        "message": "Alt Names"
+    },
+    "malware_report_str_actors": {
+        "message": "Actor(s)"
+    },
+    "malware_report_str_external_link": {
+        "message": "Link to a External Page"
+    },
+    "malware_report_str_description": {
+        "message": "Description"
+    },
+    "malware_report_str_notes": {
+        "message": "Notes"
+    },
+    "malware_report_str_references": {
+        "message": "References"
+    },
+    "ip_report_str_title": {
+        "message": "IP Investigation Report"
+    },
+    "ip_report_str_target_ip": {
+        "message": "Target IP"
+    },
+    "ip_report_str_server_info": {
+        "message": "Server Info"
+    },
+    "ip_report_str_data_fetch_failed": {
+        "message": "Data Fetch Was Failde."
+    },
+    "ip_report_str_hostname": {
+        "message": "Hostname"
+    },
+    "ip_report_str_geolocation_map": {
+        "message": "Geolocation Map"
+    },
+    "ip_report_str_open_ports": {
+        "message": "Open Ports"
+    },
+    "ip_report_str_no_open_ports": {
+        "message": "No Open Ports."
+    },
+    "ip_report_str_reference_from_shodan": {
+        "message": "Reference from Shodan"
+    },
+    "ip_report_str_proxy_check": {
+        "message": "Proxy Check"
+    },
+    "ip_report_str_proxy": {
+        "message": "Proxy Use"
+    },
+    "ip_report_str_str_type": {
+        "message": "Proxy Type"
+    },
+    "ip_report_str_abuse_report": {
+        "message": "Abuse Report"
+    },
+    "ip_report_str_reference_from_abuse": {
+        "message": "Reference from AbuseIPDB"
+    },
+    "ip_report_str_abuse_reports": {
+        "message": "Abuse Reports"
+    },
+    "ip_report_str_usage_type": {
+        "message": "Usage Type"
+    },
+    "ip_report_str_no_abuse_reports": {
+        "message": "Abuse Reports Not Found."
+    },
+    "ip_report_str_reverse_dns": {
+        "message": "Reverse DNS"
+    },
+    "ip_report_str_last_resolved": {
+        "message": "Last Resolved"
+    },
+    "ip_report_str_recommendations": {
+        "message": "Recommendations"
+    },
+    "ip_report_str_ip_used_history": {
+        "message": "IP Used History"
+    },
+    "ip_report_str_ip_address_search_with": {
+        "message": "IP Address Search with..."
+    },
+    "domain_report_str_title": {
+        "message": "Domain Investigation Report"
+    },
+    "domain_report_str_target_domain": {
+        "message": "Target Domain"
+    },
+    "domain_report_str_server_info": {
+        "message": "Whois Info"
+    },
+    "domain_report_str_data_fetch_failed": {
+        "message": "Data Fetch Was Failed."
+    },
+    "domain_report_str_date": {
+        "message": "Date"
+    },
+    "domain_report_str_registrant": {
+        "message": "Registrant"
+    },
+    "domain_report_str_admin": {
+        "message": "Admin"
+    },
+    "domain_report_str_name_servers": {
+        "message": "Name Servers"
+    },
+    "domain_report_str_subdomains": {
+        "message": "Subdomains"
+    },
+    "domain_report_str_resolutions": {
+        "message": "Resolutions"
+    },
+    "domain_report_str_none": {
+        "message": "None"
+    },
+    "domain_report_str_resolution_histories": {
+        "message": "Resolution Histories"
+    },
+    "domain_report_str_last_resolved": {
+        "message": "Last Resolved"
+    },
+    "domain_report_str_recommendations": {
+        "message": "Recommendations"
+    },
+    "domain_report_str_manual_search": {
+        "message": "Manual Search"
+    },
+    "domain_report_str_hosting_history": {
+        "message": "Hosting History"
+    },
+    "domain_report_str_whois_history": {
+        "message": "Whois History"
+    },
+    "domain_report_str_domain_info_history": {
+        "message": "Domain Info History"
+    },
+    "domain_report_str_files_referring": {
+        "message": "Files Referring"
+    },
+    "domain_report_str_domain_search_with": {
+        "message": "Domain Search With..."
+    },
+    "popup_title": {
+        "message": "Strings Search"
+    },
+    "popup_btn_keep_str_on": {
+        "message": "Keep strings: ON"
+    },
+    "popup_btn_keep_str_off": {
+        "message": "Keep strings: OFF"
+    },
+    "popup_input_box": {
+        "message": "Search Strings"
+    },
+    "popup_btn_str_virustotal": {
+        "message": "Strings search (VirusTotal)"
+    },
+    "popup_btn_str_hybridanalysis": {
+        "message": "Strings search (Hybrid Analysis)"
+    },
+    "popup_btn_str_joesandbox": {
+        "message": "Strings search (Joe Sandbox)"
+    },
+    "popup_btn_actor": {
+        "message": "Actor name search"
+    },
+    "popup_btn_malware": {
+        "message": "Malware family search"
+    },
+    "popup_btn_ip_report": {
+        "message": "IP address investigation report creation"
+    },
+    "popup_btn_ip_domaintools": {
+        "message": "IP address search (DomainTools)"
+    },
+    "popup_btn_ip_urlscan": {
+        "message": "IP address search (urlscan.io)"
+    },
+    "popup_btn_ip_urlhaus": {
+        "message": "IP address search (URLhaus)"
+    },
+    "popup_btn_ip_abuse": {
+        "message": "IP address search (AbuseIPDB)"
+    },
+    "popup_btn_ip_shodan": {
+        "message": "IP address search (Shodan)"
+    },
+    "popup_btn_ip_threatcrowd": {
+        "message": "IP address search (Threat Crowd)"
+    },
+    "popup_btn_ip_virustotal": {
+        "message": "IP address search (VirusTotal)"
+    },
+    "popup_btn_domain_report": {
+        "message": "Domain name investigation report creation"
+    },
+    "popup_btn_domain_domaintools": {
+        "message": "Domain name search (DomainTools)"
+    },
+    "popup_btn_domain_urlscan": {
+        "message": "Domain name search (urlscan.io)"
+    },
+    "popup_btn_domain_urlhaus": {
+        "message": "Domain name search (URLhaus)"
+    },
+    "popup_btn_domain_shodan": {
+        "message": "Domain name search (Shodan)"
+    },
+    "popup_btn_domain_threatcrowd": {
+        "message": "Domain name search (Threat Crowd)"
+    },
+    "popup_btn_domain_virustotal": {
+        "message": "Domain name search (VirusTotal)"
+    },
+    "popup_btn_hash_virustotal": {
+        "message": "Hash search (Virustotal)"
+    },
+    "popup_btn_hash_hybridanalysis": {
+        "message": "Hash search (Hybridanalysis)"
+    },
+    "popup_btn_hash_anyrun": {
+        "message": "Hash search (ANY.RUN)"
+    },
+    "popup_btn_hash_joesandbox": {
+        "message": "Hash search (Joe Sandbox)"
+    },
+    "popup_btn_ssh_shodan": {
+        "message": "Fingerprint search (Shodan)"
+    },
+    "popup_href_option": {
+        "message": "Open Options page."
+    },
+    "popup_href_readme": {
+        "message": "Open README."
+    },
+    "error_str_title": {
+        "message": "You have caught an ERROR!"
+    },
+    "error_str_reason": {
+        "message": "Sorry, it seems that something error has occurred. Please refer to the error message on the popup alert and the descriptions below."
+    },
+    "error_str_error_messages": {
+        "message": "Error type"
+    },
+    "error_str_toofast_title": {
+        "message": "'tooFast'"
+    },
+    "error_str_toofast_body": {
+        "message": "You reached a time limitation due to API restriction. This extension use external APIs. That APIs has some restrictions, especially the interval between the last API call time and the current API call time. Please wait around 10 seconds and run again."
+    },
+    "error_str_limitationreached_title": {
+        "message": "'limitationReached'"
+    },
+    "error_str_limitationreached_body": {
+        "message": "You may have been reached a limitation of API use count can be used."
+    },
+    "error_str_noapikey_title": {
+        "message": "'noApiKey: {site name}'"
+    },
+    "error_str_noapikey_body": {
+        "message": "API keys didn't offer. Please input it from the options page. If you didn't register an account on the sites (Shodan, proxycheck.io, AbuseIPDB) yet, you must register and get API keys."
+    },
+    "end": {
+        "message": "end"
+    }
+}

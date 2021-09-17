@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'mouhitu';
+    src: url('./font/mouhitsu.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'soukou';
+    src: url('./font/SoukouMincho.ttf') format('truetype');
+}
+
+body {
+    font-family: 'soukou';
+    line-height: 20px;
+}
+
+div.omoikane {
+    font-family: 'mouhitu';
+    font-size: 50px;
+    color: #dbdbdb;
+    background-color: #585858;
+    padding-bottom: 17px;
+}
+
+rt {
+    font-size: 15px;
+    letter-spacing: 8px;
+}
+
+h2 {
+    font-family: 'soukou';
+    letter-spacing: 2px;
+}
+
+h2:first-letter {
+    font-size: 150%;
+    color: #ff3a3a;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(to right, #222222, transparent);
+}
+
+h3 {
+    font-family: 'soukou';
+    letter-spacing: 2px;
+    width: 300px;
+}
+
+h3:first-letter {
+    font-size: 150%;
+    color: #ff3a3a;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(to right, #222222, transparent);
+}
+
+input {
+    padding: 5px;
+    color: #222222;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: #000000 0px solid;
+    box-shadow: #0c0c0c 0px 2px 0;
+    width: 300px;
+}
+
+input::placeholder {
+    font-size: 10px;
+}
+
+button {
+    border: 0px;
+    background-color: transparent;
+    font-family: 'soukou';
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff8080 0%, transparent 100%);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    background: linear-gradient(to right, #ff8080 0%, transparent 100%);
+}
+
+a:visited {
+    color: #747474;
+}
+
+div.bottom {
+    text-align: right;
+}
