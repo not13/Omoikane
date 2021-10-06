@@ -68,22 +68,21 @@ function replace_html(selectedText, resPro, resSho, resAbu, resRev) {
     else {
       replaceText += strNoOpenPorts;
     }
+  }
+  replaceText += '</div>';
 
-    replaceText += '</div>';
+  // Proxy check
+  replaceText += '<h2>' + strProxyCheck + '</h2>';
+  replaceText += '<div style="margin-left: 20px">';
 
-    // Proxy check
-    replaceText += '<h2>' + strProxyCheck + '</h2>';
-    replaceText += '<div style="margin-left: 20px">';
+  if (resPro.status != 'ok') {
+    replaceText += strDataFetchFailed
+  }
+  else {
+    replaceText += strProxy + ': ' + resPro[selectedText].proxy;
 
-    if (resPro.status != 'ok') {
-      replaceText += strDataFetchFailed
-    }
-    else {
-      replaceText += strProxy + ': ' + resPro[selectedText].proxy;
-
-      if (resPro[selectedText].proxy == 'yes')
-        replaceText += ' , ' + strType + ': ' + resPro[selectedText].type
-    }
+    if (resPro[selectedText].proxy == 'yes')
+      replaceText += ' , ' + strType + ': ' + resPro[selectedText].type
   }
   replaceText += '</div>';
 
