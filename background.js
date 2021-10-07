@@ -11,7 +11,7 @@ chrome.runtime.onInstalled.addListener(function () {
     const currentVersion = get_manifest_data('version');
 
     if (result.version == void 0 || result.version < currentVersion) {
-      open_tab('./README.html');
+      open_tab('https://github.com/not13/Omoikane/blob/master/README.md');
       chrome.storage.local.set({ 'version': currentVersion });
     }
   });
@@ -140,7 +140,7 @@ chrome.contextMenus.onClicked.addListener(function (item) {
 
     // Help menu
     case 'help': // Open README.md.
-      open_tab('./README.html');
+      open_tab('https://github.com/not13/Omoikane/blob/master/README.md');
       break;
 
     default:

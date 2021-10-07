@@ -4,6 +4,8 @@
 
 OSINT support tool for malware analysts.
 
+[- 日本語ページ -](./README_jp.md)
+
 ## Release Note
 
 * V 1.0:
