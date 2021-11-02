@@ -13,6 +13,12 @@ OSINT support tool for malware analysts.
 
 ## Installation
 
+### from Chrome Web Store
+
+[Omoikane](https://chrome.google.com/webstore/detail/omoikane/bbedkjckljbnecoamkocbfjiijcbejik)
+
+### from Local Files
+
 1. Copy "Omoikane" directory to your the local.
 2. Launch Google Chrome Browser.
 3. Open Extensions Management Page (`chrome://extensions/`).
