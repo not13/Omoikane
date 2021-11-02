@@ -13,6 +13,12 @@
 
 ## インストール
 
+### Chrome ウェブストアから
+
+[Omoikane](https://chrome.google.com/webstore/detail/omoikane/bbedkjckljbnecoamkocbfjiijcbejik)
+
+### ローカルファイルから
+
 1. 「Omoikane」ディレクトリをローカルにコピーします。
 2. GoogleChromeブラウザを起動します。
 3. 拡張機能管理ページを開きます。 (`chrome://extensions/`)
